@@ -3,6 +3,12 @@ module.exports = {
   base: "/tech-blog/",
   title: "好运来的技术博客",
   description: "个人技术博客 Html、Css、JavaScript、Vue、React等",
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+  theme: "reco",
   themeConfig: {
     nav: [
       {
@@ -49,5 +55,6 @@ module.exports = {
         children: [{ title: "斐波那契数列", path: "/handbook/algorithm/fib" }],
       },
     ],
+    subSidebar: "auto",
   },
 };
