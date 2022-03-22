@@ -54,6 +54,12 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [{ title: "斐波那契数列", path: "/handbook/algorithm/fib" }],
       },
+      {
+        title: "后端相关学习",
+        path: "/handbook/backend/nginx",
+        collapsable: false, // 不折叠
+        children: [{ title: "nginx知识", path: "/handbook/backend/nginx" }],
+      },
     ],
     subSidebar: "auto",
   },
