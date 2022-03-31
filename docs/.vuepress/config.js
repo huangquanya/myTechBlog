@@ -60,6 +60,17 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [{ title: "nginx知识", path: "/handbook/backend/nginx" }],
       },
+      {
+        title: "git使用相关",
+        path: "/handbook/git/git-ssh-config",
+        collapsable: false, // 不折叠
+        children: [
+          {
+            title: "电脑上配置github和gitlab的ssh",
+            path: "/handbook/git/git-ssh-config",
+          },
+        ],
+      },
     ],
     subSidebar: "auto",
   },
