@@ -43,10 +43,18 @@ module.exports = {
           { title: "层叠上下文", path: "/handbook/css/CssStackingContext" },
         ],
       },
+      // {
+      //   title: "Js学习",
+      //   path: "",
+      //   children: [],
+      // },
       {
-        title: "Js学习",
-        path: "",
-        children: [],
+        title: "前端相关知识",
+        path: "/handbook/browser/cache",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "缓存相关", path: "/handbook/browser/cache" },
+        ],
       },
       {
         title: "算法学习",
